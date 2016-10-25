@@ -1,2 +1,2 @@
-# pink-components
+# PINK-COMPONENTS
 The pink components repository
