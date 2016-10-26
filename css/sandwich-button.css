@@ -1,0 +1,105 @@
+/*  MAIN NAVIGATION BUTTON  */
+
+.main-navigation-button {
+    
+    margin: 10px;
+    padding: 0;
+    
+    /*  Pink  */
+    float: right;
+    width: 50px;
+    margin: 21px 10px;
+    
+}
+
+.main-navigation-button .button--main-navigation {
+    
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+    /*  Pink  */
+    height: 24px;
+    
+}
+
+.sandwich .button--main-navigation {
+    
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    
+}
+
+.sandwich .button--main-navigation:hover {
+    
+    border-top: 4px solid #d22856;
+    border-bottom: 4px solid #d22856;
+    
+}
+
+.sandwich .button--main-navigation:active {
+    
+    border-top: 4px solid rgba(210, 40, 86, 0.3);
+    border-bottom: 4px solid rgba(210, 40, 86, 0.3);
+    
+}
+
+.sandwich .button--main-navigation::after,
+.close .button--main-navigation::before,
+.close .button--main-navigation::after {
+    
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    
+}
+
+.close .button--main-navigation::before,
+.close .button--main-navigation::after {
+    
+    top: 10px;
+    left: auto;
+    right: 0;
+    width: 28px;
+    
+}
+
+.close .button--main-navigation::before {
+    
+    transform: rotate(45deg);
+    
+}
+
+.close .button--main-navigation::after {
+    
+    transform: rotate(-45deg);
+    
+}
+
+.sandwich .button--main-navigation:hover::after,
+.close .button--main-navigation:hover::before,
+.close .button--main-navigation:hover::after {
+    
+    background-color: #d22856;
+    
+}
+
+.sandwich .button--main-navigation:active::after,
+.close .button--main-navigation:active::before,
+.close .button--main-navigation:active::after {
+    
+    background-color: rgba(210, 40, 86, 0.3);
+    
+}

@@ -1,0 +1,157 @@
+/*  =========================  NAVIGATION MENU  */
+
+.navigation-menu {
+    
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.navigation-menu .navigation-menu__item {
+    
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.navigation-menu .navigation-menu__link {
+    
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    
+    background-color: transparent;
+    color: inherit;
+    
+}
+
+.navigation-menu--main {
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: lowercase;
+    text-align: center;
+    
+    color: #ffffff;
+    
+}
+
+.navigation-menu--main .navigation-menu::before {
+    
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #030303;
+    
+}
+
+.navigation-menu--main .navigation-menu__item {
+    
+    border-top: 1px solid #495562;
+    border-bottom: 1px solid #030303;
+    background-color: #283645;
+    
+}
+
+.nav-bg-color {
+    
+    background-color: #283645;
+    border-top: 1px solid #495562;
+    
+}
+
+.nav-bg-color .navigation-menu {
+    
+    display: block;
+    
+}
+
+/*  =========================  SCREEN WIDTH 980px  =========================  */
+
+@media screen and (min-width: 980px) {
+    
+    .navigation-menu--main {
+        
+        position: static;
+        font-weight: normal;
+        text-transform: none;
+        
+    }
+    
+    .navigation-menu--main .navigation-menu::before {
+        
+        display: none;
+        
+    }
+    
+    .navigation-menu {
+        
+        display: block;
+        text-align: right;
+        
+    }
+    
+    .navigation-menu .navigation-menu__item {
+        
+        display: inline-block;
+        margin: 0 33px;
+        border: none;
+        background-color: transparent;
+        
+    }
+    
+    .navigation-menu .navigation-menu__item:first-child {
+        
+        margin-left: 0;
+        
+    }
+    
+    .navigation-menu .navigation-menu__item:last-child {
+        
+        margin-right: 0;
+        
+    }
+    
+    .navigation-menu .navigation-menu__link {
+        
+        padding: 0;
+        
+    }
+    
+    .navigation-menu .navigation-menu__link:hover {
+        
+        border-bottom: 2px solid #ffffff;
+        
+    }
+    
+    .navigation-menu .navigation-menu__link:active {
+        
+        border-bottom: none;
+        opacity: 0.3;
+        
+    }
+    
+    .nav-bg-color {
+        
+        border: none;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+    }
+    
+}

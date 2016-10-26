@@ -1,0 +1,112 @@
+/*  BRAND BAR  */
+
+.brand-bar {
+    
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*  BRAND LOGO  */
+
+.brand-logo {
+    
+    float: left;
+    display: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 0;
+    
+}
+
+.brand-logo .brand-logo__image {
+    
+    width: 60px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    
+}
+
+.brand-logo .brand-logo__link {
+    
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    
+    text-decoration: none;
+    
+}
+
+.brand-logo--front-page .brand-logo__link,
+.brand-logo--inner-page > .brand-logo__image {
+    
+    display: none;
+    
+}
+
+/*  BRAND NAME  */
+
+@font-face {
+    
+    font-family: 'Gotham Rounded Book';
+    src: url(../fonts/gotham-rounded-book.otf);
+    
+}
+
+.brand-name {
+    
+    float: left;
+    margin: 10px;
+    padding: 0;
+    
+    /*  Pink  */
+    margin: 17px 10px;
+    font-family: 'Gotham Rounded Book';
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+.brand-name .brand-name__head-one,
+.brand-name .brand-name__head-two {
+    
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    cursor: default;
+    
+}
+
+.brand-name .brand-name__link {
+    
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.brand-name .brand-name__link:active {
+    
+    /*  Pink  */
+    opacity: 0.3;
+    
+}
+
+.brand-name--front-page .brand-name__head-two,
+.brand-name--inner-page .brand-name__head-one {
+    
+    display: none;
+    
+}

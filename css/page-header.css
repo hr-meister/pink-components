@@ -1,0 +1,64 @@
+/*  PAGE HEADER  */
+
+.page-header {
+    
+    /*  Pink  */
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    
+}
+
+/*  =========================  SCREEN WIDTH 700px  =========================  */
+
+@media screen and (min-width: 700px) {
+    
+    .page-header .brand-logo {
+        
+        display: block;
+        margin-top: 26px;
+        margin-left: 10px;
+        
+    }
+    
+    .page-header .brand-name {
+        
+        margin: 39px 10px;
+        
+    }
+    
+    .page-header .main-navigation-button {
+        
+        margin: 43px 10px;
+        
+    }
+    
+}
+
+/*  =========================  SCREEN WIDTH 980px  =========================  */
+
+@media screen and (min-width: 980px) {
+    
+    .page-header .brand-bar {
+        
+        float: left;
+        width: 170px;
+        
+    }
+    
+    .page-header .main-navigation-button {
+        
+        display: none;
+        
+    }
+    
+    .page-header .navigation-menu--main {
+        
+        float: right;
+        width: 750px;
+        margin: 10px;
+        margin-top: 39px;
+        
+    }
+    
+}
