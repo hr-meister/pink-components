@@ -51,6 +51,21 @@
     
 }
 
+/*  BRAND LOGO FOR FOOTER  */
+
+.page-footer .brand-logo {
+    
+    display: block;
+    margin: 0 10px;
+    
+}
+
+.page-footer .brand-logo .brand-logo__image {
+    
+    width: 145px;
+    
+}
+
 /*  BRAND NAME  */
 
 @font-face {

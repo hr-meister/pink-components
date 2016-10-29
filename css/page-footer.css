@@ -1,0 +1,39 @@
+/*  PAGE FOOTER  */
+
+.page-footer {
+    
+    /*  Pink  */
+    display: none;
+    padding: 36px 0;
+    background-color: transparent;
+    color: #283645;
+    
+}
+
+.page-footer .brand-bar,
+.page-footer .social-services__bar,
+.page-footer .copyright {
+    
+    float: left;
+    width: 33.33%;
+    
+}
+
+.page-footer .copyright {
+    
+    float: right;
+    
+}
+
+/*  =========================  SCREEN WIDTH 700px  =========================  */
+
+@media screen and (min-width: 700px) {
+    
+    .page-footer {
+        
+        /*  Pink  */
+        display: block;
+        
+    }
+    
+}
