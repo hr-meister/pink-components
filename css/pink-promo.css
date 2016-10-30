@@ -1,0 +1,303 @@
+/*  PROMO BOX  */
+
+.pink-promo {
+    
+    min-height: 458px;
+    margin-top: -66px;
+    
+    background-color: transparent;
+    background-image: url(../img/background-1@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 700px 488px;
+    
+    color: #ffffff;
+    
+}
+
+.pink-promo .content-wrapper {
+    
+    padding-top: 458px;
+    background-color: transparent;
+    background-image: url(../img/iphone-hand-1@1x.png);
+    background-repeat: no-repeat;
+    background-position:  center 172px;
+    
+}
+
+.pink-promo .pink-promo__content-wrapper {
+    
+    position: relative;
+    display: block;
+    margin: 0 -10px;
+    padding-bottom: 30px;
+    background-color: #1d2631;
+    text-align: center;
+    
+}
+
+.pink-promo .pink-promo__title {
+    
+    position: absolute;
+    top: -369px;
+    left: 20px;
+    right: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 2.4rem;
+    line-height: 100%;
+    font-weight: 300;
+    
+    z-index: 5;
+    
+}
+
+.pink-promo .pink-promo__content {
+    
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    padding: 0;
+    
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    
+}
+
+.pink-promo .pink-promo__device-list {
+    
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    
+    font-size: 0;
+    line-height: 1px;
+    
+}
+
+.pink-promo .pink-promo__device-list li {
+    
+    display: inline-block;
+    margin: 0 18px;
+    padding: 0;
+    list-style: none;
+    
+    vertical-align: middle;
+    
+}
+
+.pink-promo .pink-promo__device-list li:first-child {
+    
+    margin-left: 0;
+    
+}
+
+.pink-promo .pink-promo__device-list li:last-child {
+    
+    margin-right: 0;
+    
+}
+
+.pink-promo .pink-promo__device-list a {
+    
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.pink-promo .pink-button {
+    
+    margin-top: 28px;
+    
+}
+
+/*  =========================  SCREEN WIDTH 700px  =========================  */
+
+@media screen and (min-width: 700px) {
+    
+    .pink-promo {
+
+        min-height: 729px;
+        margin-top: -110px;
+
+        background-image: url(../img/background-2@1x.jpg);
+        background-size: 1200px 729px;
+
+    }
+    
+    .pink-promo .content-wrapper {
+
+        min-height: 729px;
+        padding-top: 0;
+        background-image: url(../img/iphone-hand-2@1x.png);
+        background-position:  right 184px;
+
+    }
+    
+    .pink-promo .pink-promo__content-wrapper {
+
+        width: 300px;
+        margin: 0 10px;
+        padding-top: 110px;
+        padding-bottom: 30px;
+        background-color: transparent;
+        text-align: center;
+
+    }
+    
+    .pink-promo .pink-promo__title {
+
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 0;
+        padding: 0 50px;
+        padding-top: 100px;
+
+        font-size: 4rem;
+        line-height: 100%;
+
+        z-index: auto;
+
+    }
+    
+    .pink-promo .pink-button {
+
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+
+    }
+    
+    .pink-promo .pink-promo__device-list {
+
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+
+    }
+    
+    .pink-promo .pink-promo__content {
+
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+
+        font-size: 1.8rem;
+
+    }
+    
+}
+
+/*  =========================  SCREEN WIDTH 980px  =========================  */
+
+@media screen and (min-width: 980px) {
+    
+    .pink-promo {
+
+        min-height: 853px;
+
+        background-image: url(../img/background-3@1x.jpg);
+        background-size: 2560px 853px;
+
+    }
+    
+    .pink-promo .content-wrapper {
+
+        min-height: 853px;
+        padding-top: 0;
+        background-image: url(../img/iphone-hand-3@1x.png);
+        background-position:  0 208px;
+
+    }
+    
+    .pink-promo .pink-promo__title {
+
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 0;
+        padding: 0 25px;
+        padding-top: 120px;
+
+        font-size: 5rem;
+        line-height: 100%;
+
+        z-index: auto;
+
+    }
+    
+    .pink-promo .pink-button {
+
+        width: 100%;
+        margin: 0;
+        margin-top: 60px;
+
+    }
+    
+    .pink-promo .pink-promo__device-list {
+
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 65px;
+
+    }
+    
+    .pink-promo .pink-promo__content {
+
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        font-size: 1.8rem;
+
+    }
+    
+}
+
+/*  PINK BUTTON  */
+
+.pink-button {
+    
+    display: inline-block;
+    box-sizing: border-box;
+    width: 280px;
+    margin: 10px;
+    padding: 1.55rem 0;
+    border: 3px solid #ffffff;
+    outline: none;
+    border-radius: 30px;
+    
+    font-size: 1.8rem;
+    line-height: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    
+    color: #ffffff;
+    
+}
+
+.pink-button:hover {
+    
+    background-color: #ffffff;
+    color: #d22856;
+    
+}
+
+.pink-button:active {
+    
+    color: #f1becc;
+    
+}

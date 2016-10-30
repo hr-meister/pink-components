@@ -1,0 +1,88 @@
+/*  SOCIAL SERVICES  */
+
+.social-services {
+    
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    font-size: 0;
+    line-height: 1px;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.social-services.social-services__bar {
+    
+    padding-top: 4px;
+    
+}
+
+.social-services .social-services__item {
+    
+    display: inline-block;
+    margin: 0 6px;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.social-services .social-services__item:first-child {
+    
+    margin-left: 0;
+    
+}
+
+.social-services .social-services__item:last-child {
+    
+    margin-right: 0;
+    
+}
+
+.social-services .social-services__link {
+    
+    display: block;
+    box-sizing: border-box;
+    width: 51px;
+    height: 51px;
+    border: 3px solid #e9ebec;
+    border-radius: 50%;
+    
+}
+
+.social-services .social-services__link:hover {
+    
+    border-color: #283645;
+    
+}
+
+.social-services .social-services__link:active {
+    
+    opacity: 0.3;
+    
+}
+
+.social-services .social-services--twitter,
+.social-services .social-services--facebook,
+.social-services .social-services--youtube {
+    
+    background-image: url(../img/icon-twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.social-services .social-services--facebook {
+    
+    background-image: url(../img/icon-facebook.svg);
+    
+}
+
+.social-services .social-services--youtube {
+    
+    background-image: url(../img/icon-youtube.svg);
+    
+}
