@@ -1,0 +1,64 @@
+/*  COPYRIGHT  */
+
+.copyright {
+    
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    
+    /*  Pink  */
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: right;
+    
+}
+
+.copyright p {
+    
+    margin: 0 10px;
+    padding: 0;
+    vertical-align: middle;
+    
+}
+
+.copyright .copyright__link {
+    
+    position: relative;
+    display: inline-block;
+    
+    /*  Pink  */
+    font-size: 0;
+    line-height: 18px;
+    vertical-align: middle;
+    
+}
+
+.copyright .copyright__link--developer,
+.copyright .copyright__link--owner {
+    
+    width: 26px;
+    color: #d22856;
+    
+}
+
+.copyright .copyright__link--developer::after,
+.copyright .copyright__link--owner::after {
+    
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 26px;
+    height: 30px;
+    background-image: url("../img/glukhanko.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.copyright .copyright__link--owner::after {
+    
+    height: 34px;
+    background-image: url(../img/htmlacademy.svg);
+    
+}

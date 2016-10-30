@@ -72,6 +72,18 @@ main {
     
 }
 
+/*  =========================  SCREEN WIDTH 700px  =========================  */
+
+@media screen and (min-width: 700px) {
+    
+    .content-wrapper {
+        
+        margin: 0 30px;
+        
+    }
+    
+}
+
 /*  =========================  SCREEN WIDTH 980px  =========================  */
 
 @media screen and (min-width: 980px) {
